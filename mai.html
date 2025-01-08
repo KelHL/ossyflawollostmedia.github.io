@@ -9,18 +9,81 @@
 			background-color: #000000;
 			}
 		</style>
+		<style>
+			.tooltip {
+				position: relative;
+				display: inline-block;
+			}
+	
+			.tooltip .tooltiptext {
+				visibility: hidden;
+				width: 120px;
+				background-color: black;
+				color: #fff;
+				text-align: center;
+				border-radius: 5px;
+				padding: 5px;
+				position: absolute;
+				z-index: 1;
+				bottom: 125%;
+				left: 50%;
+				margin-left: -60px;
+				opacity: 0;
+				transition: opacity 0.3s;
+			}
+
+			.tooltip:hover .tooltiptext {
+				visibility: visible;
+				opacity: 1;
+			}
+		</style>
 	</head>
 	<body>
 		<center>
 			<h1><p><font color="white">Modding Anomalies Investigations</font></p></h1>
 			<h3><p><font color="white">media</font></p></h3>
 		</center>
-		<a href="ModdingAnomaliesInvestigations/Portal 1 Coop Map - Strange Player.mp4"><img src="img/maiimg/Portal1CoopMapStrangePlayer.img.png" style="width:300px;height:200px;"></a>
-		<a href="ModdingAnomaliesInvestigations/Garry's Mod - Rogue Background NPC.mp4"><img src="img/maiimg/GarrysModRogueBackgroundNPC.img.png" style="width:300px;height:200px;"></a>
-		<a href="ModdingAnomaliesInvestigations/Portal Prelude - Audio Distortion Glitch.mp4"><img src="img/maiimg/PortalPreludeAudioDistortionGlitch.img.png" style="width:300px;height:200px;"></a>
-		<a href="ModdingAnomaliesInvestigations/Portal 2 - Unknown Anomaly.mp4"><img src="img/maiimg/Portal2UnknownAnomaly.img.png" style="width:300px;height:200px;"></a>
-		<a href="ModdingAnomaliesInvestigations/Garry's Mod - Unknown Anomaly (Second Sighting).mp4"><img src="img/maiimg/GarrysModUnknownAnomalySecondSighting.img.png" style="width:300px;height:200px;"></a>
-		<a href="ModdingAnomaliesInvestigations/12_12_20XX.mp4"><img src="img/maiimg/12_12_20XX.img.png" style="width:300px;height:200px;"></a>		
-		<a href="ModdingAnomaliesInvestigations/SEPTEMBER 2017.mp4"><img src="img/maiimg/SEPTEMBER2017.img.png" style="width:300px;height:200px;"></a>
+		<div class="tooltip">
+			<a href="ModdingAnomaliesInvestigations/Portal 1 Coop Map - Strange Player.mp4">
+			<img src="img/maiimg/Portal1CoopMapStrangePlayer.img.png" style="width:300px;height:200px;">
+			<span class="tooltiptext">Portal 1 Coop Map - Strange Player</span>
+			</a>
+		</div>
+		<div class="tooltip">
+			<a href="ModdingAnomaliesInvestigations/Garry's Mod - Rogue Background NPC.mp4">
+			<img src="img/maiimg/GarrysModRogueBackgroundNPC.img.png" style="width:300px;height:200px;">
+			<span class="tooltiptext">Garry's Mod - Rogue Background NPC</span>
+			</a>
+		</div>
+		<div class="tooltip">
+			<a href="ModdingAnomaliesInvestigations/Portal Prelude - Audio Distortion Glitch.mp4">
+			<img src="img/maiimg/PortalPreludeAudioDistortionGlitch.img.png" style="width:300px;height:200px;">
+			<span class="tooltiptext">Portal Prelude - Audio Distortion Glitch</span>
+			</a>
+		</div>
+		<div class="tooltip">
+			<a href="ModdingAnomaliesInvestigations/Portal 2 - Unknown Anomaly.mp4">
+			<img src="img/maiimg/Portal2UnknownAnomaly.img.png" style="width:300px;height:200px;">
+			<span class="tooltiptext">Portal 2 - Unknown Anomaly</span>
+			</a>
+		</div>
+		<div class="tooltip">
+			<a href="ModdingAnomaliesInvestigations/Garry's Mod - Unknown Anomaly (Second Sighting).mp4">
+			<img src="img/maiimg/GarrysModUnknownAnomalySecondSighting.img.png" style="width:300px;height:200px;">
+			<span class="tooltiptext">Garry's Mod - Unknown Anomaly (Second Sighting)</span>
+			</a>
+		</div>
+		<div class="tooltip">
+			<a href="ModdingAnomaliesInvestigations/12_12_20XX.mp4">
+			<img src="img/maiimg/12_12_20XX.img.png" style="width:300px;height:200px;">
+			<span class="tooltiptext">12/12/20XX</span>
+			</a>
+		</div>
+		<div class="tooltip">
+			<a href="ModdingAnomaliesInvestigations/SEPTEMBER 2017.mp4">
+			<img src="img/maiimg/SEPTEMBER2017.img.png" style="width:300px;height:200px;">
+			<span class="tooltiptext">SEPTEMBER 2017</span>
+			</a>
+		</div>
 	</body>
 </html>
