@@ -1,0 +1,8 @@
+"lang"
+{
+"Language" "english"
+"Tokens"
+{
+"COLLECTIVE_chapter1"	"TALK TO US, MARK"
+}
+}
