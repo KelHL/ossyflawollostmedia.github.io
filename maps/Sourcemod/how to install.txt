@@ -1,0 +1,1 @@
+chuck this into steam/steamapps/sourcemods and restart steam (go offline and back offline, closing + reopening doesnt work)
